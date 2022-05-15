@@ -54,12 +54,12 @@ export function FeedbackContentStep({
         </button>
         <span className="text-xl leading-6 flex items-center gap-2">
           
-          
-          <img
+        {feedbackTypeInfo.image.source}
+          {/* <img
             className="w-6 h-6"
             src={feedbackTypeInfo.image.source}
             alt={feedbackTypeInfo.image.alt}
-          />
+          /> */}
           {feedbackTypeInfo.title}
         </span>
 
