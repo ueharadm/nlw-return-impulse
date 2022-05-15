@@ -33,7 +33,7 @@ export function FeedbackContentStep({
       comment,
     }) */
 
-    await api.post('/feedbacks',{
+    await api.post('/feedbacks', {
       type: feedbackType,
       comment,
       screenshot,
@@ -53,6 +53,8 @@ export function FeedbackContentStep({
           <ArrowLeft weight="bold" className="top-5 left-5 absolute text-zinc-500 hover:text-zinc-100" />
         </button>
         <span className="text-xl leading-6 flex items-center gap-2">
+          
+          
           <img
             className="w-6 h-6"
             src={feedbackTypeInfo.image.source}
